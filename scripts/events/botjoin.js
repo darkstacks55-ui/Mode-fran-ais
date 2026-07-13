@@ -5,7 +5,7 @@ const path = require("path");
 const ownerInfo = {
   name: "ヾ Kαɪ.夜",
   facebook: "https://www.facebook.com/shade.userX",
-  instagram: "ᏉᎾᏆᎧ ᎿᎬᏁ",
+  instagram: "x.shade108",
   supportGroup: "🌝🌚"
 };
 

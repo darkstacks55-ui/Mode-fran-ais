@@ -5,8 +5,8 @@ const clashHistories = new Map();
 const API_ENDPOINT = "https://shizuai.vercel.app/chat";
 
 // --- CONFIGURATION DES RANGS ---
-const BOSS_UID = "61590619952957"; // Le Chef suprême intouchable
-const VIP_UID = "61590619952957";  // L'UID autorisé à utiliser les commandes (Mets un autre UID ici si le VIP n'est pas le Boss)
+const BOSS_UID = "61591943664127"; // Le Chef suprême intouchable
+const VIP_UID = "61591943664127";  // L'UID autorisé à utiliser les commandes (Mets un autre UID ici si le VIP n'est pas le Boss)
 
 async function getAIResponse(input, userId, adversaireNom, level) {
     const cleanInput = input.replace(/[\u200B-\u200D\uFEFF]/g, '').trim();
